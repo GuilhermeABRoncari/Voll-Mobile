@@ -13,7 +13,7 @@ export default function Login() {
       <Titulo>Faça login na sua conta</Titulo>
       <Box>
         <EntradaTexto label={'Email'} placeholder={'Insira seu endereço de email'} />
-        <EntradaTexto label={'Senha'} placeholder={'Insira sua senha'} />
+        <EntradaTexto label={'Senha'} placeholder={'Insira sua senha'} secreto={true} />
       </Box>
       <Botao>Entrar</Botao>
       <Link href="" marginTop={5}>

@@ -1,7 +1,7 @@
 import { Button } from 'native-base';
 import React from 'react';
 
-interface BotaoProps {
+interface BotaoProps extends React.ComponentProps<typeof Button> {
   children: React.ReactNode;
 }
 
