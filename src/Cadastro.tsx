@@ -6,7 +6,7 @@ import { EntradaTexto } from './componentes/EntradaTexto';
 import { Titulo } from './componentes/Titulo';
 import { secoes } from './utils/CadastroEntradaTexto';
 
-export function Cadastro() {
+export default function Cadastro() {
   const [numSecao, setNumSecao] = useState<number>(0);
 
   function avancarSecao() {
